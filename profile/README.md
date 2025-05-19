@@ -2,15 +2,15 @@
 
 iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，不管是作为路由还是 NAS，你都有相似的操作体验。
 
-系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)
+系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)，更多详细介绍请看我们[iStoreOS官网](https://site.istoreos.com/)
 
 iStoreOS 来源于 OpenWRT，相较于原版 OpenWRT，iStoreOS 具有以下优势：
 
-1. iStoreOS 提供了**软件中心**：[**iStore**](https://github.com/linkease/istore)，尽可能解决插件之间的依赖关系，可让大家自由自在安装插件。手动安装离线包也是支持的。
+1. iStoreOS 提供了**软件中心**：[**iStore**](https://github.com/linkease/istore)，尽可能解决插件之间的依赖关系，可让大家自由自在安装插件，并且支持插件备份以及恢复。
 2. iStoreOS 固件升级时会保留用户安装的插件，避免升级以后还要再安装一遍插件。
 3. iStoreOS 官方支持的硬件都可以**在线升级**，无需手动下载固件升级。
 4. iStoreOS 拥有**沙箱模式**。通过 U 盘进入沙箱模式，后续的软件安装更新以及系统配置都在沙箱进行。不管安装插件搞坏了系统还是配置错误导致系统故障，拔掉 U 盘就回到进沙箱前的状态。如果对当前状态满意还可以回写到非沙箱环境。沙箱模式本身也是系统扩容的最简单的方法。
-5. 救援模式，即使固件损坏，也可以进入救援模式刷机或恢复出厂设置。目前仅仅自家硬件 [ARS2](https://item.taobao.com/item.htm?ft=t&id=655381846734) 支持
+5. iStoreOS 本身就是精简版本，所有的额外功能都是触发到了，依赖软件中心去额外安装插件实现。iStoreOS并不是臃肿的把所有用到的插件内置到固件中。
 
 iStoreOS 还做了很多很多的交互简化，但是即使再简化，对于不同的用户级别，我们还是得提供了三套完全不一样的交互 UI：
 
@@ -28,67 +28,33 @@ iStoreOS 入门极客版本 UI 是默认的 UI，目标是提供给懂点技术�
 ![首页](https://doc.linkease.com/assets/img/geek-preview1.9987f6a0.jpg)
 ![软件中心](https://doc.linkease.com/assets/img/geek-istore-preview2.5e9c0323.jpg)
 
-## 小白路由版本
-
-最标准的小白路由版本，减去了超多的复杂的眼花缭乱的功能，回归最本质的路由功能。
-
-对于路由器硬件卖家来说，最好默认帮用户安装此版本。
-
-安装方法：
-
-1. 在默认的极客版本上，从软件中心，安装 iStoreX
-2. 退出重新登录，就到了小白路由器版本
-
-### 小白路由版本预览
-
-![网络向导](https://doc.linkease.com/assets/img/router-preview1.7729ec63.jpg)
-![软件中心](https://doc.linkease.com/assets/img/router-istore.f031ae04.jpg)
-
-## 轻 NAS 版本
-
-如果你不是重度的BT下载用户，也不是重度在线看电影需要视频硬解码的用户，那么用个软路由当NAS，是完全没问题的。毕竟网络转发跟硬盘存储不冲突。
-
-当然，iStoreOS 也会提供给你一个纯正独立的 NAS 系统，底层也完全是 OpenWRT，且软件中心完全互通，你懂的路由器的知识，也可以完全搬到 NAS 系统上。那么我们的 NAS 系统有哪些功能？
-
-1. RAID 磁盘阵列
-2. S.M.A.R.T 检测
-3. 个人私有网盘，借助[易有云插件](https://app.linkease.com) 实现
-4. 相册自动备份，借助[易有云插件](https://app.linkease.com) 实现
-5. 异地多设备文件同步，借助[易有云插件](https://app.linkease.com) 实现
-6. 异地组网，借助[易有云插件](https://app.linkease.com) 实现
-7. 远程域名访问，借助[DDNSTO插件](https://www.ddnsto.com) 实现
-8. 软件中心（当然软件中心有 NasTool、Jellyfin 影院、下载等等）
-
-注意：目前此交互还在活跃开发中
-
-### 轻 NAS 预览
-
-![首页](https://doc.linkease.com/assets/img/nas-preview1.3d49cb9a.png)
-![应用中心](https://doc.linkease.com/assets/img/nas-istore-preview2.902df65b.png)
+更多皮肤介绍请看我们[iStoreOS官网](https://site.istoreos.com/)
 
 ## 支持硬件
 
-* [ARS2](https://item.taobao.com/item.htm?ft=t&id=655381846734) [固件最初支持的硬件，没有这个硬件，就没有这个项目]
+* [EasePi-R1](https://item.taobao.com/item.htm?ft=t&id=851159153974) [官方硬件，没有这个硬件，就没有这个项目]
 * X86
 * R2S
 * R4S
 * R5S
 * R68S
 
+更多硬件请参考[设备支持](https://site.istoreos.com/device/)
+
 ### 功能组合
 
-* 建议使用[易有云 APP](https://app.linkease.com) 做异地组网，相册备份，文件同步，远程应用导航等
+* 建议使用[易有云 APP](https://www.linkease.com) 做异地组网，相册备份，文件同步，远程应用导航等
 * 建议用 [DDNSTO](https://www.ddnsto.com) 从网页域名远程访问路由器
 
 ### 固件下载
 
-[下载地址](https://fw.koolcenter.com/iStoreOS/)
+[下载地址](https://site.istoreos.com/firmware)
 
 ### 使用方法
 
 * 默认IP http://192.168.100.1
 * 默认密码：password
-* 如果只有一个网口，默认的网口是 LAN；如果大于一个网口，默认 eth0 是 WAN 口，其它都是 LAN。
+* 如果只有一个网口，默认的网口是 LAN，且DHCP自动获取 IP；如果大于一个网口，默认 eth0 是 WAN 口，其它都是 LAN。
 * 如果在 LAN 口修改 IP，或者任何修改之后导致无法连接路由器，都会导致刚才的修改被回滚。所以要修改 LAN/WAN 口 IP，可以选择强制应用，保证修改肯定生效。
 
 ## 定制固件
@@ -142,9 +108,9 @@ opkg install *.ipk
 
 * [提交反馈](https://github.com/linkease/istoreos/issues)
 
-大家也可以选择加入 iStoreOS 固件互助群。
+大家也可以选择加入 iStoreOS 固件互助群。（注意，QQ群没有官方人员长时间在线支持，如果购买了 DDNSTO/易有云 用户可以加入我们售后微信群）
 
-* [入群](https://www.koolcenter.com/posts/117)
+* [入群](https://www.linkease.com/about/)
 
 ## 精力不足，求助一臂之力
 
