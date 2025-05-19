@@ -26,7 +26,6 @@ iStoreOS 入门极客版本 UI 是默认的 UI，目标是提供给懂点技术�
 ### 入门极客版本预览
 
 ![首页](https://doc.linkease.com/assets/img/geek-preview1.9987f6a0.jpg)
-![软件中心](https://doc.linkease.com/assets/img/geek-istore-preview2.5e9c0323.jpg)
 
 更多皮肤介绍请看我们[iStoreOS官网](https://site.istoreos.com/)
 
