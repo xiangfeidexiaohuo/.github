@@ -22,5 +22,4 @@ iStoreOS 还做了很多很多的交互简化，但是即使再简化，对于�
 * [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
 * [QQ 群](https://www.koolcenter.com/posts/117)
 * [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
-* 微信扫码关注公众号：
-![istoreos-gongzhong](https://doc.linkease.com/assets/img/istoreos-gongzhong.7b082729.png)
+* 微信扫码关注公众号：[istoreos-gongzhong](https://doc.linkease.com/assets/img/istoreos-gongzhong.7b082729.png)
