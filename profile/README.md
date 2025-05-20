@@ -1,9 +1,6 @@
 # iStoreOS 固件
 
 iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，不管是作为路由还是 NAS，你都有相似的操作体验。
-
-系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)，更多详细介绍请看我们[iStoreOS官网](https://site.istoreos.com/)
-
 iStoreOS 来源于 OpenWRT，相较于原版 OpenWRT，iStoreOS 具有以下优势：
 
 1. iStoreOS 提供了**软件中心**：[**iStore**](https://github.com/linkease/istore)，尽可能解决插件之间的依赖关系，可让大家自由自在安装插件，并且支持插件备份以及恢复。
